@@ -15,7 +15,7 @@ export default function Counter() {
 
         <div className="buttons">
           <button className="btn minus" onClick={() => setCount(count - 1)}>
-            −
+            -
           </button>
 
           <button className="btn reset" onClick={() => setCount(0)}>
